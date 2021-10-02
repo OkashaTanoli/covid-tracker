@@ -1,0 +1,44 @@
+.lineChartDiv {
+    max-width: 80%;
+    margin: 0 auto;
+
+}
+.lineChartHeadDiv{
+    position: relative;
+    margin: 90px auto;
+    /* margin-bottom: 70px;
+    margin-top: 80px; */
+    width: 90%;
+}
+.totalDataHead {
+    color: white;
+    font-size: 2.7rem;
+    font-weight: 500;
+    margin-bottom: -20px;
+    margin-top: 40px;
+    font-family: new
+}
+
+.extraDivForHead {
+    background-color: rgb(255, 215, 0);
+    width: 100%;
+    height: 2px;
+    border-radius: 10px;
+    position: absolute;
+    bottom: 0
+}
+
+@media (max-width:800px) {
+    .lineChartDiv {
+        max-width: 95%;
+        margin: 0 auto;
+    
+    }
+    .totalDataHead {
+        color: white;
+        font-size: 20px;
+        margin-bottom: -20px;
+        margin-top: 40px;
+        font-family: new
+    }
+}

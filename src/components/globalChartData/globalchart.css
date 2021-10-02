@@ -1,0 +1,59 @@
+/* .donutChart{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+.donutChartMainDiv{
+    display: flex;
+    justify-content: space-around;
+    width: 90%;
+    margin: 0 auto;
+}
+.covidPreCau{
+    font-size: 25px;
+    width: 500px;
+    display: flex;
+    align-items: center;
+    color: white;
+    font-family: new;
+}
+.newLoader {
+    border: 4px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 5px solid #3498db00;
+    width: 200px;
+    height: 200px;
+    -webkit-animation: spin 1s linear infinite; /* Safari */
+    animation: spin 1s linear infinite;
+  }
+  
+  /* Safari */
+  @-webkit-keyframes spin {
+    0% { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); }
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+@media (max-width:870px) {
+    .donutChartMainDiv{
+        display: block;
+        width: 90%;
+        margin: 0 auto;
+        /* text-align: center; */
+    }
+    .donutChart{
+        margin: 0 auto;
+        width: 95% !important;
+    }
+    .covidPreCau{
+        font-size: 17px;
+        width: 90%;
+        margin: 20px auto;
+        text-align: center;
+        color: white;
+        font-family: new;
+    }
+}

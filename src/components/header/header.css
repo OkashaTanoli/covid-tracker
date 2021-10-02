@@ -1,0 +1,80 @@
+@font-face {
+  font-family: new;
+  src: url(../../fonts/Merienda-Bold.ttf);
+}
+
+.Header {
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-left: 0 !important;
+  /* background-color: antiquewhite; */
+  /* border-bottom: 2px solid rgb(61, 0, 0);  */
+}
+
+.borderBottom {
+  position: absolute;
+  bottom: 0;
+  background: linear-gradient(to right, red, purple, #58e0ff);
+  height: 3px;
+  width: 100%;
+}
+
+.covidHead {
+  color: rgb(241, 241, 241);
+  font-family: new;
+  font-size: 40px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+}
+
+#demo-simple-select-outlined-label {
+  /* background-color: white !important; */
+  color: white !important;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+
+.covidlogo {
+  animation: rotation 8s infinite linear;
+  padding: 0 5px;
+}
+
+@media(max-width:700px) {
+  .Header {
+    display: block;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    /* overflow: hidden; */
+
+  }
+  .covidHead {
+    color: rgb(241, 241, 241);
+    font-family: new;
+    font-size: 40px;
+    justify-content: center;
+    padding-left: 0px !important;
+  }
+  #formControl{
+    width: 90%;
+    margin-left: 0 ;
+    margin-right: 0;
+    padding:0 ;
+  }
+  .selectCountryDiv{
+    display: flex;
+    justify-content: center;
+  }
+}
