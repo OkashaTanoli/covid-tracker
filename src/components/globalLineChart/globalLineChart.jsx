@@ -86,7 +86,7 @@ const LineChart = () => {
     return (
         <div>
             <div className='lineChartHeadDiv'>
-                <div className='totalDataHead'>LAST YEAR GLOBAL DATA</div>
+                <div className='totalDataHead'>LAST YEAR GLOBAL DATA:</div>
                 <div className='extraDivForHead'></div>
             </div>
             <div className='lineChartDiv'>
