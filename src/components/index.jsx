@@ -66,7 +66,7 @@ function MainComponent() {
             <GlobalBox loading={Loading} Data={BlocksData} />
             <DonutChart loading={Loading} Data={BlocksData} />
             <LineChart />
-            <p style={{textAlign:'center',fontSize:'16p',color:'whitesmoke',marginTop:'70px'}}>OKASHA_TANOLI copyright &#169;	 2021 </p>
+            <p style={{textAlign:'center',fontSize:'16p',color:'whitesmoke',marginTop:'70px'}}>OKASHA_TANOLI copyright _&#169;_	 2021 </p>
         </div>
     )
 }
